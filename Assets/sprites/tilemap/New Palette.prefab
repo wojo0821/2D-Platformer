@@ -77,6 +77,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8605588845138337742}
+  - {fileID: 6438587386076896218}
   m_Father: {fileID: 8737452830786539266}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1839735485 &3106449302305389388
@@ -173,6 +174,68 @@ TilemapRenderer:
   m_SortOrder: 0
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
+--- !u!1001 &1466940001554044747
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 3596215815352567938}
+    m_Modifications:
+    - target: {fileID: 893385118046740227, guid: ce076836f7c81194f8f1e6d3de8bc0ea, type: 3}
+      propertyPath: m_Name
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548974831197490321, guid: ce076836f7c81194f8f1e6d3de8bc0ea, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548974831197490321, guid: ce076836f7c81194f8f1e6d3de8bc0ea, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548974831197490321, guid: ce076836f7c81194f8f1e6d3de8bc0ea, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548974831197490321, guid: ce076836f7c81194f8f1e6d3de8bc0ea, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548974831197490321, guid: ce076836f7c81194f8f1e6d3de8bc0ea, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548974831197490321, guid: ce076836f7c81194f8f1e6d3de8bc0ea, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548974831197490321, guid: ce076836f7c81194f8f1e6d3de8bc0ea, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548974831197490321, guid: ce076836f7c81194f8f1e6d3de8bc0ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548974831197490321, guid: ce076836f7c81194f8f1e6d3de8bc0ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5548974831197490321, guid: ce076836f7c81194f8f1e6d3de8bc0ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ce076836f7c81194f8f1e6d3de8bc0ea, type: 3}
+--- !u!4 &6438587386076896218 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5548974831197490321, guid: ce076836f7c81194f8f1e6d3de8bc0ea, type: 3}
+  m_PrefabInstance: {fileID: 1466940001554044747}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2417829533073315760
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -225,6 +288,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7053736136686614979, guid: 3465fcc315e0ae34ba2fc76630f0471e, type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7053736136686614979, guid: 3465fcc315e0ae34ba2fc76630f0471e, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -235,7 +306,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6260261127398115454, guid: 3465fcc315e0ae34ba2fc76630f0471e, type: 3}
   m_PrefabInstance: {fileID: 2417829533073315760}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &191689021278998375
+--- !u!114 &6943051108413290969
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

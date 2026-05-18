@@ -12,8 +12,4 @@ public class Coin : MonoBehaviour
             gameObject.SetActive(false);
         }
     }
-    private void Start()
-    {
-        main.coin = 0;
-    }
 }

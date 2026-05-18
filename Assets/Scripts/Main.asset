@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47d7a841d4a79da4a9ac984c3512f1e9, type: 3}
   m_Name: Main
   m_EditorClassIdentifier: Assembly-CSharp::Main
-  _coin: 0
-  coinCount: 'Coin : 0'
+  _coin: 17
+  coinCount: 'Coin : 17'

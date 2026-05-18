@@ -1,16 +1,17 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Main", menuName = "Main", order = 0)]
 public class Main : ScriptableObject
 {
 
-    
+
     [SerializeField] private int _coin = 0;
     public string coinCount;
-    public int coin 
+    public int coin
     {
         get => _coin;
-        set 
+        set
         {
             _coin = value;
             UpdateCoinCount();
@@ -22,5 +23,6 @@ public class Main : ScriptableObject
         coinCount = "Coin : " + _coin;
     }
 
-    
+
+
 }
